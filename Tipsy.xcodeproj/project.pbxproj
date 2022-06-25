@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2717B5E52851634E0092EF14 /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2717B5E42851634E0092EF14 /* Bill.swift */; };
-		2717B5E7285164980092EF14 /* BillBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2717B5E6285164980092EF14 /* BillBrain.swift */; };
+		2717B5E7285164980092EF14 /* BillManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2717B5E6285164980092EF14 /* BillManager.swift */; };
 		2717B5E928516BD00092EF14 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2717B5E828516BD00092EF14 /* ResultViewController.swift */; };
 		ADB689532326708D006D4E2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB689522326708D006D4E2B /* AppDelegate.swift */; };
 		ADB689552326708D006D4E2B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB689542326708D006D4E2B /* SceneDelegate.swift */; };
@@ -19,8 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2717B5E42851634E0092EF14 /* Bill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
-		2717B5E6285164980092EF14 /* BillBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillBrain.swift; sourceTree = "<group>"; };
+		2717B5E6285164980092EF14 /* BillManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillManager.swift; sourceTree = "<group>"; };
 		2717B5E828516BD00092EF14 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		ADB6894F2326708D006D4E2B /* Tipsy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tipsy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADB689522326708D006D4E2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -46,8 +44,7 @@
 		2717B5E0285162CD0092EF14 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				2717B5E42851634E0092EF14 /* Bill.swift */,
-				2717B5E6285164980092EF14 /* BillBrain.swift */,
+				2717B5E6285164980092EF14 /* BillManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -171,10 +168,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2717B5E52851634E0092EF14 /* Bill.swift in Sources */,
 				ADB689572326708D006D4E2B /* CalculatorViewController.swift in Sources */,
 				ADB689532326708D006D4E2B /* AppDelegate.swift in Sources */,
-				2717B5E7285164980092EF14 /* BillBrain.swift in Sources */,
+				2717B5E7285164980092EF14 /* BillManager.swift in Sources */,
 				ADB689552326708D006D4E2B /* SceneDelegate.swift in Sources */,
 				2717B5E928516BD00092EF14 /* ResultViewController.swift in Sources */,
 			);
@@ -323,12 +319,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Z72SDHS75;
 				INFOPLIST_FILE = Tipsy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = co.appbrewery.Tipsy;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cardoso-leonardoTipsy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -340,12 +337,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Z72SDHS75;
 				INFOPLIST_FILE = Tipsy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = co.appbrewery.Tipsy;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cardoso-leonardoTipsy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

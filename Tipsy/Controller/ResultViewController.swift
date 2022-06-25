@@ -13,9 +13,9 @@ class ResultViewController: UIViewController {
     @IBOutlet weak var resultLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UILabel!
     
-    var result : Float?
-    var totalPeople: Float?
-    var tip: Float?
+    var result : Double?
+    var totalPeople: Double?
+    var tip: Double?
     
     override func viewDidLoad() {
         resultLabel.text = String(format: "%.2f", result!)
